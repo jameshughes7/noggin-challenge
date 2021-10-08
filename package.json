@@ -1,0 +1,33 @@
+{
+  "name": "noggin-challenge",
+  "version": "1.0.0",
+  "description": "Tech challenge for Noggin",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jameshughes7/noggin-challenge.git"
+  },
+  "keywords": [
+    "cypress",
+    "cucumber"
+  ],
+  "author": "James Hughes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jameshughes7/noggin-challenge/issues"
+  },
+  "homepage": "https://github.com/jameshughes7/noggin-challenge#readme",
+  "devDependencies": {
+    "cypress": "^8.5.0",
+    "cypress-cucumber-preprocessor": "^4.3.0",
+    "cypress-real-events": "^1.5.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "stepDefinitions": "cypress/integration"
+  }
+}

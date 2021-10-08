@@ -1,0 +1,9 @@
+{
+    "testFiles": "pages/**/*.feature",
+    "video": false,
+    "ignoreTestFiles": [
+        "*.js",
+        "*.md",
+        "*.json"
+    ]
+}
