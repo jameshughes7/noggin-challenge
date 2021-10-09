@@ -5,16 +5,15 @@ import { homePage } from './homePage';
 
 When('I select menu item {string} and drop down item {string}', (menuItem, dropDownItem) => {
     cy.get('@resolution').then(resolution => {
-        if (resolution === 'mobile') {
+        if (resolution === 'mobile' || resolution === 'tablet') {
             homePage.clickOnMobileMenuTrigger();
             homePage.selectMobileMenuItem(menuItem);
             homePage.selectMobileDropDownItem(dropDownItem);
-            homePage.validatePageisCorrectFromDropDown();
         } else {
             homePage.hoverOverMenuItem(menuItem);
             homePage.selectDropDownMenuItem(menuItem, dropDownItem);
-            homePage.validatePageisCorrectFromDropDown();
         }
+        homePage.validatePageisCorrectFromDropDown();
     })
 })
 

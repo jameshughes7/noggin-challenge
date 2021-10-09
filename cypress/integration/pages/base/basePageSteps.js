@@ -25,5 +25,5 @@ Before({ tags: '@mobile' }, () => {
 
 Given('I navigate to the landing page', () => {
     cy.visit('https://noggin.io');
-    basePage.acceptCookies();
+    basePage.acceptCookies();   
 })

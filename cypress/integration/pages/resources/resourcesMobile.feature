@@ -14,6 +14,6 @@ When I select menu item "<menu-item>" and drop down item "<drop-down-item>"
 Scenarios:
 | menu-item | drop-down-item    |
 | Resources | Blog              |
-| Resources | Resource Center   |
+| Resources | Resource Centre   |
 | Resources | Events & Webinars |
 | Resources | Noggin Newsroom   |

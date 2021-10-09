@@ -3,8 +3,8 @@ import { BasePage } from '../base/basePage';
 const menuListItems = '.menu-container .hs-menu-wrapper li';
 const header = '.header-main-container';
 const mobileMenuTrigger = '.cd-dropdown-trigger.mobile-trigger';
-const mobileMenuItems = '.cd-dropdown-content > li';
-const mobileDropDownLinks = '.cd-dropdown-gallery.cd-dropdown-resource.is-active.fade-in .inner-content > a';
+const mobileMenuItemLinks = '.cd-dropdown-content > li > a';
+const mobileDropDownLinks = '.cd-dropdown-gallery.is-active > .inner-content > a';
 
 export class HomePage extends BasePage {
 
@@ -65,25 +65,23 @@ export class HomePage extends BasePage {
     }
 
     selectMobileMenuItem (menuItem) {
-        cy.get(mobileMenuItems).each(($menuItem => {
-            const menuItemText = $menuItem.text();
-            cy.log(menuItemText);
-            if (menuItemText === menuItem) $menuItem.find('a').then(mobileMenuItemLink => {
-              cy.wrap(mobileMenuItemLink).click();
-            })
+        cy.get(mobileMenuItemLinks).each(($menuItemLink => {
+            const menuItemText = $menuItemLink.text();
+            if (menuItemText === menuItem) cy.wrap($menuItemLink).click();
         }))
     }
 
     selectMobileDropDownItem(dropDownItem) {
+        cy.log(`dropDownItem: ${dropDownItem}`);
         cy.get(mobileDropDownLinks).each(($mobileDropDownLink) => {
             const dropDownLinkText = $mobileDropDownLink.text();
-            if (dropDownLinkText === dropDownItem) {
+            if (dropDownLinkText.trim() === dropDownItem) {
                 cy.wrap($mobileDropDownLink).then(dropDownLink => {
                     cy.wrap(dropDownLink).invoke('attr', 'href').then(href => {
                         const resourcesPath  = href.split('/').pop().split('-').pop();
                         cy.wrap(resourcesPath).as('resourcesPath');
+                        cy.wrap(dropDownLink).click();
                     })
-                    cy.wrap(dropDownLink).click();
                 })
             }
         })

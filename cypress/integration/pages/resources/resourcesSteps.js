@@ -12,6 +12,12 @@ When('I filter resources solution by {string} and industry by {string}', (soluti
     })
 })
 
+When('I select resource guide {string}', (guideName) => {
+    cy.get('@resourcesPath').then(path => {
+      if (path === 'resources') resources.selectResourceGuide(guideName);
+    })
+})
+
 Then('I should see the resources page correctly displayed', () => {
     resources.validateUrl('resources');
 })

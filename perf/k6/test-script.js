@@ -29,11 +29,17 @@ export default function () {
       });
     });
 
-    group('Resources endpoint', function () {
+    group('Resources endpoints', function () {
       const res = http.get(`${baseUrl}/resources`);
       check(res, {
         'is status code 200': (r) => r.status === 200,
       });
+    });
+
+    group('guide-to-iso-22320 endpoint', function () {
+      const res = http.get(`${baseUrl}/guide-to-iso-22320`);
+      check(res, {
+        'is status code 200': (r) => r.status === 200,
     });
   });
 }
