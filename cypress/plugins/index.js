@@ -18,11 +18,11 @@
 // eslint-disable-next-line no-unused-vars
 
 const cucumber = require('cypress-cucumber-preprocessor').default;
-const switchTab = require('../support/utility').switchTab;
+// const switchTab = require('../support/utility').switchTab;
 
 module.exports = (on, config) => {
   on('file:preprocessor', cucumber());
-  on('task', {
-    switchTab
-  });
+  // on('task', {
+  //   switchTab
+  // });
 }

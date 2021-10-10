@@ -13,6 +13,8 @@
   * [Key Performance Metrics](#key-performance-metrics)
 * [Test Automation](#test-automation)
 * [Performance Testing](#performance-testing)
+* [Running Tests](#running-tests)
+* [TODO](#todo)
 
 ### Agile Testing
 
@@ -101,7 +103,7 @@
 * Test Driven Development TDD (Red, Green, Refactor)
 * BDD Behaviour Driven Development (feature built to satisfy business need, multiple stakeholders able to view and understand features. 3 amigos)
 * Contract Testing (CDCT Consumer Driven Contract Testing)
-* AB Testing
+* AB Testing - comparing control against a variant to see if a change to page/journey improves the user journey. Often called Conversation Rate Optimisation. It's all about optimising the rate of Users successfully completing journeys (on a page or across multiple pages  )
 * ATDD Acceptance Test Driven Development (User input is key, write UAT test, make it pass) 
 * Exploratory testing (manual testing where testing as a user but a very critical user)
 * Session-based testing (like exploratory testing but with specific mission in mind, hunting specific bugs in application)
@@ -209,12 +211,12 @@ This is an example from simple JMeter Test showing some of these key metrics:
 **Requirement:** You should use Page object model framework, Cucumber (BDD framework), Maven (for Java), npm (for JavaScript),
 
 **Steps:**
-* Go to https://www.noggin.io
-* Click on 'RESOURCES'  - Resource Centre link
-* Validate the page title and few images
-* Filter Resources by Emergency Management
-* Validate the if the filtered results are displayed
-* Click on any of the download guide link and check if a new page is opened and validate the for any content in that new page
+* Go to https://www.noggin.io - DONE
+* Click on 'RESOURCES'  - Resource Centre link - DONE
+* Validate the page title and few images - DONE
+* Filter Resources by Emergency Management -DONE
+* Validate if the filtered results are displayed - DONE
+* Click on any of the download guide link and check if a new page is opened and validate for any content in that new page - TODO
 
 **Note: Share the code without the dependencies (dependencies should be mentioned in POM.xml for Java or package.json for JavaScript)**
 
@@ -236,16 +238,32 @@ This is an example from simple JMeter Test showing some of these key metrics:
   * Iterations - 5
   * Listener - Summary report
 
-**TODO:**
-* Upate Agile Testing especially Agile Testing Methodologies
-* Cypress test suite completed but needs improving in the following ways:
-  * Need to be able to navigate to another tab with Puppeteer
-  * cypress-audit for a11y and performance testing
-  * cypress-image-screenshot for regression testing
-  * mochawesome reports
-* Puppetteer test suite option
+### Running Tests
+Here are the test scripts for running the various types of testing:
+
+```
+npm run cy:open           // run cypress tests in UI mode
+npm run cy:run            // run all cypress tests in HEADLESS mode
+npm run cy:run:desktop    // run desktop tagged tests in HEADLESS mode
+npm run cy:run:desktopXL  // run desktopXL tagged tests in HEADLESS mode
+npm run cy:run:tablet     // run tablet tagged tests in HEADLESS mode
+npm run cy:run:mobile     // run mobile tagged tests in HEADLESS mode
+npm run k6:run            // run K6 performance tests in HEADLESS mode
+```
+
+### TODO**
 * JMeter:
   * Complete Blazemeter University
   * Update JMeter
-* K6 POC
-* Artillery POC
+* K6 POC - **MORE ASSERTIONS and improve**
+* Artillery POC - **TO DO**
+* Cypress test suite completed but needs improving in the following ways:
+  * cypress-audit for a11y and performance testing
+
+  * Upate Agile Testing especially Agile Testing Methodologies
+  * cypress-image-screenshot for regression testing
+  * mochawesome reports with screenshots
+* Puppetteer test suite option
+
+### **Bugs found on the site**
+* induries instead of injuries

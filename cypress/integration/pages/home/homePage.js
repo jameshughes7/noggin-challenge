@@ -5,8 +5,13 @@ const header = '.header-main-container';
 const mobileMenuTrigger = '.cd-dropdown-trigger.mobile-trigger';
 const mobileMenuItemLinks = '.cd-dropdown-content > li > a';
 const mobileDropDownLinks = '.cd-dropdown-gallery.is-active > .inner-content > a';
+const cookiesButtons = '#hs-eu-cookie-confirmation-button-group > a';
 
 export class HomePage extends BasePage {
+
+    acceptCookies() {
+        cy.get(cookiesButtons).eq(1).click();
+    }
 
     hoverOverMenuItem(menuItem) {
         cy.log(`menuItem: ${menuItem}`);

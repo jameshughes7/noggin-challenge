@@ -1,0 +1,539 @@
+
+{
+    "Default": [
+        {
+            "content-heading": "A Guide to the AIIMS Framework for Emergency Management",
+            "image": "AGuidetotheAIIMSFrameworkforEmergencyManagement.jpg"
+        },
+        {
+            "content-heading": "A Guide to Understanding the ICS (Incident Command System)",
+            "image": "GuidetoUnderstanding-ICS.png"
+        },
+        {
+            "content-heading": "A Guide to Understanding ISO 22320: Emergency Management Requirements for Incident Response",
+            "image": "ISO-22320-Guide.png"
+        },
+        {
+            "content-heading": "A Buyer's Guide to Purchasing Emergency Management Software",
+            "image": "Emergency-Buyers-Guide.png"
+        },
+        {
+            "content-heading": "Guide to Major Incident Management Command in the Healthcare Sector",
+            "image": "Noggin-GuidetoMajorIncidentManagementCommandintheHealthcareSectorTHUMBNAIL-2021.png"
+        },
+        {
+            "content-heading": "SGN Leverages Digital Innovation to Improve Business Functions",
+            "image": "NogginxSGNCustomerSuccessStory-CaseStudyTHUMBNAIL-2021.png"
+        },
+        {
+            "content-heading": "Airport's Software Buyer's Guide",
+            "image": "Noggin-AirportsBuyersGuideTHUMBNAIL-2021.png"
+        },
+        {
+            "content-heading": "Guide to AIIMS and CIMS",
+            "image": "Noggin-AIIMS+CIMSGuideTHUMBNAIL-2021.png"
+        }
+    ],
+    "Aviation": [
+        {
+            "content-heading": "A Guide to the AIIMS Framework for Emergency Management",
+            "image": "AGuidetotheAIIMSFrameworkforEmergencyManagement.jpg"
+        },
+        {
+            "content-heading": "A Guide to Understanding the ICS (Incident Command System)",
+            "image": "GuidetoUnderstanding-ICS.png"
+        },
+        {
+            "content-heading": "A Guide to Understanding ISO 22320: Emergency Management Requirements for Incident Response",
+            "image": "ISO-22320-Guide.png"
+        },
+        {
+            "content-heading": "A Buyer's Guide to Purchasing Emergency Management Software",
+            "image": "Emergency-Buyers-Guide.png"
+        },
+        {
+            "content-heading": "Guide to Major Incident Management Command in the Healthcare Sector",
+            "image": "Noggin-GuidetoMajorIncidentManagementCommandintheHealthcareSectorTHUMBNAIL-2021.png"
+        },
+        {
+            "content-heading": "SGN Leverages Digital Innovation to Improve Business Functions",
+            "image": "NogginxSGNCustomerSuccessStory-CaseStudyTHUMBNAIL-2021.png"
+        },
+        {
+            "content-heading": "Airport's Software Buyer's Guide",
+            "image": "Noggin-AirportsBuyersGuideTHUMBNAIL-2021.png"
+        },
+        {
+            "content-heading": "Guide to Part 139 Compliance for Airport Operators",
+            "image": "Noggin-Part139ComplianceforAviationTHUMBNAIL-2021.png"
+        },
+        {
+            "content-heading": "Guide to AIIMS and CIMS",
+            "image": "Noggin-AIIMS+CIMSGuideTHUMBNAIL-2021.png"
+        }
+    ],
+    "Education": [
+        {
+            "content-heading": "A Guide to the AIIMS Framework for Emergency Management",
+            "image": "AGuidetotheAIIMSFrameworkforEmergencyManagement.jpg"
+        },
+        {
+            "content-heading": "A Guide to Understanding the ICS (Incident Command System)",
+            "image": "GuidetoUnderstanding-ICS.png"
+        },
+        {
+            "content-heading": "A Guide to Understanding ISO 22320: Emergency Management Requirements for Incident Response",
+            "image": "ISO-22320-Guide.png"
+        },
+        {
+            "content-heading": "A Buyer's Guide to Purchasing Emergency Management Software",
+            "image": "Emergency-Buyers-Guide.png"
+        },
+        {
+            "content-heading": "ISO 31000: A Guide for Educational Institutions",
+            "image": "Noggin-ISO31000AGuideforEducationalInstitutionsTHUMBNAIL-2021.png"
+        },
+        {
+            "content-heading": "Understanding Clery Act Requirements for Educational Institutions",
+            "image": "Noggin-UnderstandingCleryActRequirementsforEducationalInstitutionsTHUMBNAIL-2021.png"
+        },
+        {
+            "content-heading": "Guide to Major Incident Management Command in the Healthcare Sector",
+            "image": "Noggin-GuidetoMajorIncidentManagementCommandintheHealthcareSectorTHUMBNAIL-2021.png"
+        },
+        {
+            "content-heading": "Integrated Safety and Security Management for a Comprehensive Approach to Campus Security",
+            "image": "Noggin-IntegratedSafety%26SecurityManagementforCampusSafetyGuideTHUMBNAIL-2021.png"
+        },
+        {
+            "content-heading": "SGN Leverages Digital Innovation to Improve Business Functions",
+            "image": "NogginxSGNCustomerSuccessStory-CaseStudyTHUMBNAIL-2021.png"
+        },
+        {
+            "content-heading": "UTS Modernises Incident Management",
+            "image": "NogginxUTSCustomerSuccessStory-CaseStudyTHUMBNAIL2021.png"
+        },
+        {
+            "content-heading": "QUT Embraces Digital Transformation",
+            "image": "NogginxQUTCustomerSuccessStory-CaseStudyTHUMBNAIL2021.png"
+        },
+        {
+            "content-heading": "Airport's Software Buyer's Guide",
+            "image": "Noggin-AirportsBuyersGuideTHUMBNAIL-2021.png"
+        },
+        {
+            "content-heading": "Educational Institution's Software Buyer's Guide",
+            "image": "Noggin-EducationBuyersGuideTHUMBNAIL-2021.png"
+        },
+        {
+            "content-heading": "Guide to AIIMS and CIMS",
+            "image": "Noggin-AIIMS+CIMSGuideTHUMBNAIL-2021.png"
+        }
+    ], 
+    "Financial Services": [
+        {
+            "content-heading": "A Guide to the AIIMS Framework for Emergency Management",
+            "image": "AGuidetotheAIIMSFrameworkforEmergencyManagement.jpg"
+        },
+        {
+            "content-heading": "A Guide to Understanding the ICS (Incident Command System)",
+            "image": "GuidetoUnderstanding-ICS.png"
+        },
+        {
+            "content-heading": "A Guide to Understanding ISO 22320: Emergency Management Requirements for Incident Response",
+            "image": "ISO-22320-Guide.png"
+        },
+        {
+            "content-heading": "A Buyer's Guide to Purchasing Emergency Management Software",
+            "image": "Emergency-Buyers-Guide.png"
+        },
+        {
+            "content-heading": "Guide to Prudential Standard CPS 232 Business Continuity Management",
+            "image": "MKT-629---APRA-Business-Continuity-Guide.png"
+        },
+        {
+            "content-heading": "Guide to Prudential Standard CPS 231 Outsourcing",
+            "image": "Noggin-APRA-OutsourcingGuideTHUMBNAIL-2021.png"
+        },
+        {
+            "content-heading": "Guide to Prudential Standard CPS 234 Information Security",
+            "image": "Noggin-APRAInformationSecurityGuideTHUMBNAIL-2021.png"
+        },
+        {
+            "content-heading": "Guide to Major Incident Management Command in the Healthcare Sector",
+            "image": "Noggin-GuidetoMajorIncidentManagementCommandintheHealthcareSectorTHUMBNAIL-2021.png"
+        },
+        {
+            "content-heading": "SGN Leverages Digital Innovation to Improve Business Functions",
+            "image": "NogginxSGNCustomerSuccessStory-CaseStudyTHUMBNAIL-2021.png"
+        },
+        {
+            "content-heading": "Airport's Software Buyer's Guide",
+            "image": "Noggin-AirportsBuyersGuideTHUMBNAIL-2021.png"
+        },
+        {
+            "content-heading": "Guide to AIIMS and CIMS",
+            "image": "Noggin-AIIMS+CIMSGuideTHUMBNAIL-2021.png"
+        }
+    ],
+    "Government": [
+        {
+            "content-heading": "A Guide to the AIIMS Framework for Emergency Management",
+            "image": "AGuidetotheAIIMSFrameworkforEmergencyManagement.jpg"
+        },
+        {
+            "content-heading": "A Guide to Understanding the ICS (Incident Command System)",
+            "image": "GuidetoUnderstanding-ICS.png"
+        },
+        {
+            "content-heading": "A Guide to Understanding ISO 22320: Emergency Management Requirements for Incident Response",
+            "image": "ISO-22320-Guide.png"
+        },
+        {
+            "content-heading": "A Buyer's Guide to Purchasing Emergency Management Software",
+            "image": "Emergency-Buyers-Guide.png"
+        },
+        {
+            "content-heading": "Guide to Major Incident Management Command in the Healthcare Sector",
+            "image": "Noggin-GuidetoMajorIncidentManagementCommandintheHealthcareSectorTHUMBNAIL-2021.png"
+        },
+        {
+            "content-heading": "SGN Leverages Digital Innovation to Improve Business Functions",
+            "image": "NogginxSGNCustomerSuccessStory-CaseStudyTHUMBNAIL-2021.png"
+        },
+        {
+            "content-heading": "Airport's Software Buyer's Guide",
+            "image": "Noggin-AirportsBuyersGuideTHUMBNAIL-2021.png"
+        },
+        {
+            "content-heading": "Guide to AIIMS and CIMS",
+            "image": "Noggin-AIIMS+CIMSGuideTHUMBNAIL-2021.png"
+        }
+    ],
+    "Healthcare": [
+        {
+            "content-heading": "A Guide to the AIIMS Framework for Emergency Management",
+            "image": "AGuidetotheAIIMSFrameworkforEmergencyManagement.jpg"
+        },
+        {
+            "content-heading": "A Guide to Developing Your COVID-19 Return to Work Plan",
+            "image": "Aguidetodevelopingyourcovid-19returntoworkplan.jpg"
+        },
+        {
+            "content-heading": "A Guide to Understanding the ICS (Incident Command System)",
+            "image": "GuidetoUnderstanding-ICS.png"
+        },
+        {
+            "content-heading": "A Guide to Business Recovery from the COVID-19 Crisis",
+            "image": "Business-Recovery-Guide.png"
+        },
+        {
+            "content-heading": "A Guide to Understanding ISO 22320: Emergency Management Requirements for Incident Response",
+            "image": "hubfs/ISO-22320-Guide.png"
+        },
+        {
+            "content-heading": "A Buyer's Guide to Purchasing Emergency Management Software",
+            "image": "Emergency-Buyers-Guide.png"
+        },
+        {
+            "content-heading": "Guide to Major Incident Management Command in the Healthcare Sector",
+            "image": "Noggin-GuidetoMajorIncidentManagementCommandintheHealthcareSectorTHUMBNAIL-2021.png"
+        },
+        {
+            "content-heading": "SGN Leverages Digital Innovation to Improve Business Functions",
+            "image": "NogginxSGNCustomerSuccessStory-CaseStudyTHUMBNAIL-2021.png"
+        },
+        {
+            "content-heading": "Airport's Software Buyer's Guide",
+            "image": "Noggin-AirportsBuyersGuideTHUMBNAIL-2021.png"
+        },
+        {
+            "content-heading": "Guide to AIIMS and CIMS",
+            "image": "Noggin-AIIMS+CIMSGuideTHUMBNAIL-2021.png"
+        }
+    ],
+    "Manufacturing": [
+        {
+            "content-heading": "A Guide to the AIIMS Framework for Emergency Management",
+            "image": "AGuidetotheAIIMSFrameworkforEmergencyManagement.jpg"
+        },
+        {
+            "content-heading": "A Guide to Understanding the ICS (Incident Command System)",
+            "image": "GuidetoUnderstanding-ICS.png"
+        },
+        {
+            "content-heading": "A Guide to Understanding ISO 22320: Emergency Management Requirements for Incident Response",
+            "image": "ISO-22320-Guide.png"
+        },
+        {
+            "content-heading": "A Buyer's Guide to Purchasing Emergency Management Software",
+            "image": "Emergency-Buyers-Guide.png"
+        },
+        {
+            "content-heading": "Guide to Major Incident Management Command in the Healthcare Sector",
+            "image": "Noggin-GuidetoMajorIncidentManagementCommandintheHealthcareSectorTHUMBNAIL-2021.png"
+        },
+        {
+            "content-heading": "SGN Leverages Digital Innovation to Improve Business Functions",
+            "image": "NogginxSGNCustomerSuccessStory-CaseStudyTHUMBNAIL-2021.png"
+        },
+        {
+            "content-heading": "Airport's Software Buyer's Guide",
+            "image": "Noggin-AirportsBuyersGuideTHUMBNAIL-2021.png"
+        },
+        {
+            "content-heading": "Guide to AIIMS and CIMS",
+            "image": "Noggin-AIIMS+CIMSGuideTHUMBNAIL-2021.png"
+        }
+    ],
+    "Mining": [
+        {
+            "content-heading": "A Guide to the AIIMS Framework for Emergency Management",
+            "image": "AGuidetotheAIIMSFrameworkforEmergencyManagement.jpg"
+        },
+        {
+            "content-heading": "A Guide to Understanding the ICS (Incident Command System)",
+            "image": "GuidetoUnderstanding-ICS.png"
+        },
+        {
+            "content-heading": "A Guide to Understanding ISO 22320: Emergency Management Requirements for Incident Response",
+            "image": "ISO-22320-Guide.png"
+        },
+        {
+            "content-heading": "A Buyer's Guide to Purchasing Emergency Management Software",
+            "image": "Emergency-Buyers-Guide.png"
+        },
+        {
+            "content-heading": "Guide to Major Incident Management Command in the Healthcare Sector",
+            "image": "Noggin-GuidetoMajorIncidentManagementCommandintheHealthcareSectorTHUMBNAIL-2021.png"
+        },
+        {
+            "content-heading": "SGN Leverages Digital Innovation to Improve Business Functions",
+            "image": "NogginxSGNCustomerSuccessStory-CaseStudyTHUMBNAIL-2021.png"
+        },
+        {
+            "content-heading": "Airport's Software Buyer's Guide",
+            "image": "Noggin-AirportsBuyersGuideTHUMBNAIL-2021.png"
+        },
+        {
+            "content-heading": "Guide to AIIMS and CIMS",
+            "image": "Noggin-AIIMS+CIMSGuideTHUMBNAIL-2021.png"
+        }
+    ],
+    "Non-Profit": [
+        {
+            "content-heading": "A Guide to the AIIMS Framework for Emergency Management",
+            "image": "AGuidetotheAIIMSFrameworkforEmergencyManagement.jpg"
+        },
+        {
+            "content-heading": "A Guide to Understanding the ICS (Incident Command System)",
+            "image": "GuidetoUnderstanding-ICS.png"
+        },
+        {
+            "content-heading": "A Guide to Understanding ISO 22320: Emergency Management Requirements for Incident Response",
+            "image": "ISO-22320-Guide.png"
+        },
+        {
+            "content-heading": "A Buyer's Guide to Purchasing Emergency Management Software",
+            "image": "Emergency-Buyers-Guide.png"
+        },
+        {
+            "content-heading": "Guide to Major Incident Management Command in the Healthcare Sector",
+            "image": "Noggin-GuidetoMajorIncidentManagementCommandintheHealthcareSectorTHUMBNAIL-2021.png"
+        },
+        {
+            "content-heading": "SGN Leverages Digital Innovation to Improve Business Functions",
+            "image": "NogginxSGNCustomerSuccessStory-CaseStudyTHUMBNAIL-2021.png"
+        },
+        {
+            "content-heading": "Airport's Software Buyer's Guide",
+            "image": "Noggin-AirportsBuyersGuideTHUMBNAIL-2021.png"
+        },
+        {
+            "content-heading": "Guide to AIIMS and CIMS",
+            "image": "Noggin-AIIMS+CIMSGuideTHUMBNAIL-2021.png"
+        }
+    ],
+    "Public Safety": [
+        {
+            "content-heading": "A Guide to the AIIMS Framework for Emergency Management",
+            "image": "AGuidetotheAIIMSFrameworkforEmergencyManagement.jpg"
+        },
+        {
+            "content-heading": "A Guide to Understanding the ICS (Incident Command System)",
+            "image": "GuidetoUnderstanding-ICS.png"
+        },
+        {
+            "content-heading": "A Guide to Understanding ISO 22320: Emergency Management Requirements for Incident Response",
+            "image": "ISO-22320-Guide.png"
+        },
+        {
+            "content-heading": "A Buyer's Guide to Purchasing Emergency Management Software",
+            "image": "Emergency-Buyers-Guide.png"
+        },
+        {
+            "content-heading": "Guide to Major Incident Management Command in the Healthcare Sector",
+            "image": "Noggin-GuidetoMajorIncidentManagementCommandintheHealthcareSectorTHUMBNAIL-2021.png"
+        },
+        {
+            "content-heading": "SGN Leverages Digital Innovation to Improve Business Functions",
+            "image": "NogginxSGNCustomerSuccessStory-CaseStudyTHUMBNAIL-2021.png"
+        },
+        {
+            "content-heading": "Airport's Software Buyer's Guide",
+            "image": "Noggin-AirportsBuyersGuideTHUMBNAIL-2021.png"
+        },
+        {
+            "content-heading": "Guide to AIIMS and CIMS",
+            "image": "Noggin-AIIMS+CIMSGuideTHUMBNAIL-2021.png"
+        }
+    ],
+    "Retail": [
+        {
+            "content-heading": "A Guide to the AIIMS Framework for Emergency Management",
+            "image": "AGuidetotheAIIMSFrameworkforEmergencyManagement.jpg"
+        },
+        {
+            "content-heading": "A Guide to Understanding the ICS (Incident Command System)",
+            "image": "GuidetoUnderstanding-ICS.png"
+        },
+        {
+            "content-heading": "A Guide to Understanding ISO 22320: Emergency Management Requirements for Incident Response",
+            "image": "ISO-22320-Guide.png"
+        },
+        {
+            "content-heading": "A Buyer's Guide to Purchasing Emergency Management Software",
+            "image": "Emergency-Buyers-Guide.png"
+        },
+        {
+            "content-heading": "Guide to Major Incident Management Command in the Healthcare Sector",
+            "image": "Noggin-GuidetoMajorIncidentManagementCommandintheHealthcareSectorTHUMBNAIL-2021.png"
+        },
+        {
+            "content-heading": "SGN Leverages Digital Innovation to Improve Business Functions",
+            "image": "NogginxSGNCustomerSuccessStory-CaseStudyTHUMBNAIL-2021.png"
+        },
+        {
+            "content-heading": "Woolworths Achieves Key Business Improvements with Noggin",
+            "image": "Noggin-WoolworthsCustomerSuccessStory-CaseStudyTHUMBNAIL2021.png"
+        },
+        {
+            "content-heading": "Airport's Software Buyer's Guide",
+            "image": "Noggin-AirportsBuyersGuideTHUMBNAIL-2021.png"
+        },
+        {
+            "content-heading": "Guide to AIIMS and CIMS",
+            "image": "Noggin-AIIMS+CIMSGuideTHUMBNAIL-2021.png"
+        }
+    ],
+    "Transportation": [
+        {
+            "content-heading": "A Guide to the AIIMS Framework for Emergency Management",
+            "image": "AGuidetotheAIIMSFrameworkforEmergencyManagement.jpg"
+        },
+        {
+            "content-heading": "A Guide to Understanding the ICS (Incident Command System)",
+            "image": "GuidetoUnderstanding-ICS.png"
+        },
+        {
+            "content-heading": "A Guide to Understanding ISO 22320: Emergency Management Requirements for Incident Response",
+            "image": "ISO-22320-Guide.png"
+        },
+        {
+            "content-heading": "A Buyer's Guide to Purchasing Emergency Management Software",
+            "image": "Emergency-Buyers-Guide.png"
+        },
+        {
+            "content-heading": "Guide to Major Incident Management Command in the Healthcare Sector",
+            "image": "Noggin-GuidetoMajorIncidentManagementCommandintheHealthcareSectorTHUMBNAIL-2021.png"
+        },
+        {
+            "content-heading": "SGN Leverages Digital Innovation to Improve Business Functions",
+            "image": "NogginxSGNCustomerSuccessStory-CaseStudyTHUMBNAIL-2021.png"
+        },
+        {
+            "content-heading": "LINX Cargo Care Group Harmonizes Incident Management With Noggin",
+            "image": "hubfs/NogginxLINXCargoCareCustomerSuccessStory-CaseStudyTHUMBNAIL2021.png"
+        },
+        {
+            "content-heading": "Airport's Software Buyer's Guide",
+            "image": "Noggin-AirportsBuyersGuideTHUMBNAIL-2021.png"
+        },
+        {
+            "content-heading": "Guide to AIIMS and CIMS",
+            "image": "Noggin-AIIMS+CIMSGuideTHUMBNAIL-2021.png"
+        }
+    ],
+    "Utilities": [
+        {
+            "content-heading": "A Guide to the AIIMS Framework for Emergency Management",
+            "image": "AGuidetotheAIIMSFrameworkforEmergencyManagement.jpg"
+        },
+        {
+            "content-heading": "A Guide to Understanding the ICS (Incident Command System)",
+            "image": "GuidetoUnderstanding-ICS.png"
+        },
+        {
+            "content-heading": "A Guide to Understanding ISO 22320: Emergency Management Requirements for Incident Response",
+            "image": "ISO-22320-Guide.png"
+        },
+        {
+            "content-heading": "A Buyer's Guide to Purchasing Emergency Management Software",
+            "image": "Emergency-Buyers-Guide.png"
+        },
+        {
+            "content-heading": "Guide to Major Incident Management Command in the Healthcare Sector",
+            "image": "Noggin-GuidetoMajorIncidentManagementCommandintheHealthcareSectorTHUMBNAIL-2021.png"
+        },
+        {
+            "content-heading": "ISO 55001: Asset Management Guide for Utilities",
+            "image": "Noggin-ISO55001AssetManagementGuideTHUMBNAIL-2021.png"
+        },
+        {
+            "content-heading": "SGN Leverages Digital Innovation to Improve Business Functions",
+            "image": "NogginxSGNCustomerSuccessStory-CaseStudyTHUMBNAIL-2021.png"
+        },
+        {
+            "content-heading": "Airport's Software Buyer's Guide",
+            "image": "Noggin-AirportsBuyersGuideTHUMBNAIL-2021.png"
+        },
+        {
+            "content-heading": "Guide to AIIMS and CIMS",
+            "image": "Noggin-AIIMS+CIMSGuideTHUMBNAIL-2021.png"
+        }
+    ],
+    "Other": [
+        {
+            "content-heading": "A Guide to the AIIMS Framework for Emergency Management",
+            "image": "AGuidetotheAIIMSFrameworkforEmergencyManagement.jpg"
+        },
+        {
+            "content-heading": "A Guide to Understanding the ICS (Incident Command System)",
+            "image": "GuidetoUnderstanding-ICS.png"
+        },
+        {
+            "content-heading": "A Guide to Understanding ISO 22320: Emergency Management Requirements for Incident Response",
+            "image": "ISO-22320-Guide.png"
+        },
+        {
+            "content-heading": "A Buyer's Guide to Purchasing Emergency Management Software",
+            "image": "Emergency-Buyers-Guide.png"
+        },
+        {
+            "content-heading": "Guide to Major Incident Management Command in the Healthcare Sector",
+            "image": "Noggin-GuidetoMajorIncidentManagementCommandintheHealthcareSectorTHUMBNAIL-2021.png"
+        },
+        {
+            "content-heading": "SGN Leverages Digital Innovation to Improve Business Functions",
+            "image": "NogginxSGNCustomerSuccessStory-CaseStudyTHUMBNAIL-2021.png"
+        },
+        {
+            "content-heading": "Airport's Software Buyer's Guide",
+            "image": "Noggin-AirportsBuyersGuideTHUMBNAIL-2021.png"
+        },
+        {
+            "content-heading": "Guide to AIIMS and CIMS",
+            "image": "Noggin-AIIMS+CIMSGuideTHUMBNAIL-2021.png"
+        }
+    ]   
+}

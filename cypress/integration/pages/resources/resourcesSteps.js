@@ -5,6 +5,7 @@ import { resources } from './resources';
 
 When('I filter resources solution by {string} and industry by {string}', (solution, industry) => {
     cy.get('@resourcesPath').then(path => {
+        resources.validatePageCorrectlyDisplayed(path);
         if (path === 'resources') {
             resources.filterResources(solution, industry);
             resources.validateFilteredResults(solution, industry);
@@ -19,7 +20,9 @@ When('I select resource guide {string}', (guideName) => {
 })
 
 Then('I should see the resources page correctly displayed', () => {
-    resources.validateUrl('resources');
+    resources.validatePageisCorrectFromDropDown();
+    resources.validateHeading();
+    resources.validateFeaturedWhitepaper();
 })
 
 

@@ -22,8 +22,3 @@ Before({ tags: '@mobile' }, () => {
     basePage.setResolution('iphone-5');
     cy.wrap('mobile').as('resolution');
 })
-
-Given('I navigate to the landing page', () => {
-    cy.visit('https://noggin.io');
-    basePage.acceptCookies();   
-})

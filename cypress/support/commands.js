@@ -23,3 +23,12 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+Cypress.Commands.add('trimText', (subject) => {
+    Cypress.log({
+        name: 'trimText',
+    })
+    expect(subject).to.be.visible;
+    const trimmedSubject = subject.text().trim();
+    return trimmedSubject;
+})

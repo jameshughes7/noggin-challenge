@@ -1,3 +1,6 @@
 node_modules
 .vscode/
 .DS_Store
+TestReport
+cypress-tests-report.json
+mochawesome-report/

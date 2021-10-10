@@ -1,5 +1,7 @@
 /// <reference types="cypress" />
 
+const cookiesButtons = '#hs-eu-cookie-confirmation-button-group > a';
+
 export class BasePage {
 
     setResolution(resolution) {
@@ -20,19 +22,13 @@ export class BasePage {
         }
     }
 
-    validateUrl(page) {
-        cy.url().then(url => {
-            cy.wrap(url).should('contain', page);
-        })
-    }
-
     acceptCookies() {
-        cy.get('#hs-eu-cookie-confirmation-button-group > a').eq(1).click();
+        cy.get(cookiesButtons).eq(1).click();
     }
 
-    validatePageisCorrectFromDropDown() {
-        cy.get('@resourcesPath').then(path => {
-            this.validateUrl(path);
+    validateUrl(path) {
+        cy.url().then(url => {
+            cy.wrap(url).should('contain', path);
         })
     }
 

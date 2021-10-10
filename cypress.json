@@ -1,9 +1,16 @@
 {
+    "baseUrl": "https://noggin.io",
     "testFiles": "pages/**/*.feature",
     "video": false,
     "ignoreTestFiles": [
         "*.js",
         "*.md",
         "*.json"
-    ]
+    ],
+    "reporter": "../node_modules/mochawesome/src/mochawesome.js",
+    "reporterOptions": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+    }
 }
