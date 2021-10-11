@@ -202,6 +202,8 @@ So that I can see my my noggin profile
 * **Memory utilisation:** How much resource (physical memory device) it takes to process a request.
 * **Total user sessions:** This shows traffic intensity over a period of time e.g. 10 user sessions per hour. This can feature a number of page views and bytes transferred.
 
+[Back to contents](#contents)
+
 <br>
 
 ### Test Automation
@@ -241,7 +243,7 @@ npm run cy:run:mobile         // run mobile tagged tests in HEADLESS mode
 npm run generate:html:report  // run after cypress tests (except for cy:open) for html report to be generated
 ```
 
-[Back to contens](#contents)
+[Back to contents](#contents)
 
 <br>
 
@@ -290,7 +292,7 @@ jmeter -n -t perf/jmeter/Noggin-Users-Performance-Test.jmx -l perf/jmeter/Noggin
 * After running the K6 script, an HTML report will be generated in the `perf/k6` directory in a file called `noggin-k6-performance-summary.html`. Open it up and take a look 👀
 * After running the JMeter script, the results will be generated in the `perf/jmeter` directory in a file called `Noggin-Users-Performance-Results`
 
-[Back to contens](#contents)
+[Back to contents](#contents)
 
 ### **TODO**
 The following is a list of things I didn't get round to completeing in this Tech Challenge, but which I intend on delving into/setting up.
@@ -301,4 +303,4 @@ The following is a list of things I didn't get round to completeing in this Tech
   * Install **cypress-audit** setup in the project for a11y and Lighthouse performance testing
 * **Visual Regression Testing**: Install **cypress-image-screenshot** for regression testing
 
-[Back to contens](#contents)
+[Back to contents](#contents)
