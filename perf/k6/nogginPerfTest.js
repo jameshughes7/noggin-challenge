@@ -1,6 +1,8 @@
 import http from 'k6/http';
 import { check, group } from 'k6';
 import { parseHTML } from 'k6/html';
+import { htmlReport } from "https://raw.githubusercontent.com/benc-uk/k6-reporter/main/dist/bundle.js";
+import { textSummary } from "https://jslib.k6.io/k6-summary/0.0.1/index.js";
 
 const baseUrl = 'https://www.noggin.io';
 
@@ -20,6 +22,13 @@ export const options = {
     http_req_duration: ['avg<50'],
   },
 };
+
+export function handleSummary(data) {
+  return {
+    "perf/k6/noggin-k6-performance-summary.html": htmlReport(data),
+    stdout: textSummary(data, { indent: " ", enableColors: true }),
+  };
+}
 
 export default function () {
   group('Noggin Performance Test', function () {
@@ -73,15 +82,3 @@ export default function () {
     });
   })
 }
-
-// Go to https://www.noggin.io - DONE
-// Click on 'RESOURCES' - Resource Centre link - DONE
-// Add Assertions - DONE
-// Filter Resources by Emergency Management - TODO
-// Validate the if the filtered results are displayed and add assertions -TODO
-// Click on any of the download guide link and check if a new page is opened and validate the for any content in that new page by adding an assertion - DONE
-// Conditions:
-// Number of threads - 1
-// Ramp up time - 5 seconds
-// Iterations - 5
-// Listener - Summary report

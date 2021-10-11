@@ -11,12 +11,12 @@
     "cy:run:desktopXL": "npm run clean:reports && ./node_modules/.bin/cypress-tags run --headless --browser chrome -e TAGS='@desktopXL'",
     "cy:run:tablet": "npm run clean:reports && ./node_modules/.bin/cypress-tags run --headless --browser chrome -e TAGS='@tablet'",
     "cy:run:mobile": "npm run clean:reports && ./node_modules/.bin/cypress-tags run --headless --browser chrome -e TAGS='@mobile'",
-    "k6:run": "k6 run perf/k6/test-script.js",
+    "k6:run": "k6 run perf/k6/nogginPerfTest.js",
+    "jmeter:run": "jmeter -n -t perf/jmeter/Noggin-Users-Performance-Test.jmx -l perf/jmeter/Noggin-Users-Performance-Results",
     "clean:reports": "rm -rf mochawesome-report/",
     "merge:reports": "mochawesome-merge mochawesome-report/*.json > cypress-tests-report.json",
     "create:html:report": "marge --reportDir TestReport cypress-tests-report.json",
     "generate:html:report": "npm run merge:reports && npm run create:html:report"
-
   },
   "repository": {
     "type": "git",

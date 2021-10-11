@@ -66,6 +66,7 @@ export class Resources extends BasePage {
     }
 
     selectResourceGuide(guideName) {
+        cy.wrap(guideName).as('guideName');
         cy.get(visibleGuideElements).each(($guideElement => {
             cy.wrap($guideElement).find('h4').then(h4 => {
                 const h4Text = h4.text();
@@ -78,7 +79,6 @@ export class Resources extends BasePage {
                 }
             })
         }))
-        this.validateResourceGuidePage(guideName);
     }
 
     validateResourceGuidePage(guideName) {

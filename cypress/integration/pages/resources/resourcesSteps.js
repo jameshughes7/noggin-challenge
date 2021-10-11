@@ -19,10 +19,8 @@ When('I select resource guide {string}', (guideName) => {
     })
 })
 
-Then('I should see the resources page correctly displayed', () => {
-    resources.validatePageisCorrectFromDropDown();
-    resources.validateHeading();
-    resources.validateFeaturedWhitepaper();
+Then('I should see the resource guide page correctly displayed', () => {
+    cy.get('@guideName').then(guideName => {
+        resources.validateResourceGuidePage(guideName);
+    })
 })
-
-

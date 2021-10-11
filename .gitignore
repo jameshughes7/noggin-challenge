@@ -4,3 +4,4 @@ node_modules
 TestReport
 cypress-tests-report.json
 mochawesome-report/
+perf/jmeter/Noggin-Users-Performance-Results

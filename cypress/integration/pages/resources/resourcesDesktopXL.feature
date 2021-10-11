@@ -10,7 +10,7 @@ Scenario Outline: Filter Resources page for desktopXL resolution according to "E
 Given I am on the home page
 When I select menu item "<menu-item>" and drop down item "<drop-down-item>"
   And I filter resources solution by "Emergency Management" and industry by "<industry>"
-  # And I select resource guide "Guide to AIIMS and CIMS"
+  And I select resource guide "Guide to AIIMS and CIMS"
 
 Scenarios:
 | menu-item | drop-down-item  | industry           |
