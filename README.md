@@ -227,6 +227,9 @@ I went with <a href="https://www.cypress.io/" target="_blank">Cypress</a> as my 
 
 #### **Running Cypress Tests**
 
+**Pre-requisites:**
+* `npm install`
+
 ```
 npm run cy:run:resources      // run all resources tests
 npm run cy:open               // run cypress tests in UI mode
@@ -265,6 +268,17 @@ Write a JMeter script for the below scenario and share the `.jmx` file
 I created a JMeter script as per the requirements. Prior to this, I had only very briefly used JMeter. I enjoyed improving my skills using JMeter and have become aware at just how powerful this mature performance testing tool is. As an alernative, I created a script with <a href="https://k6.io/" target="_blank">K6</a>, a highly rated Tool written in Go but which is implemented in JavaScript. I really enjoyed using K6! It has also been built with developers and shift-left in mind, with the hope to encourage devs to write Performance tests early on. I enjoyed  writing the script in JS and am really excited to use it more going forward.
 
 #### **Running Performance Tests**
+
+**Pre-requisites for Mac users**
+  * Install homebrew: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+  * Install k6: `brew install k6`
+  * Install jmeter: `brew install jmeter`
+
+**Pre-requisites for Windows users**
+* Install <a href="https://chocolatey.org/" target="_blank">Chocolatey</a>
+* `choco install k6`
+* Install JMeter <a href="https://jmeter.apache.org/download_jmeter.cgi" target="_blank">JMeter</a>
+
 
 ```
 npm run k6:run                // run K6 performance tests in HEADLESS mode
