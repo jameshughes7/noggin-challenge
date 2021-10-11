@@ -1,7 +1,7 @@
 # Noggin Tech Challenge
 
 ## Contents
-* [Agile Testing](#agile-testing)
+* [Agile Testing](#agile-testing) 🧪 🤸‍♂️
   * [Defect priority and severity](#defect-priority-and-severity)
   * [Defect examples](#defect-examples)
   * [Testing new Release](#testing-new-release)
@@ -11,13 +11,13 @@
   * [Scrum and Kanban](#scrum-and-kanban)
   * [Imperative and Declarative tests](#imperative-and-declarative-tests)
   * [Key Performance Metrics](#key-performance-metrics)
-* [Test Automation](#test-automation)
+* [Test Automation](#test-automation) 🧪 🤖
   * [Test Automation Challenge](#test-automation-challenge)
   * [Test Automation Requirement](#test-automation-requirement)
   * [Test Automation Steps](#test-automation-steps)
   * [Test Automation Solution](#test-automation-solution)
   * [Running Cypress Tests](#running-cypress-tests)
-* [Performance Testing](#performance-testing)
+* [Performance Testing](#performance-testing) 🚀 🧪
   * [Performance Testing Challenge](#performance-testing-challenge)
   * [Performance Testing Steps](#performance-testing-steps)
   * [Performance Testing Conditions](#performance-testing-conditions)
@@ -25,7 +25,7 @@
   * [Running Performance Tests](#running-performance-tests)
 * [TODO](#todo)
 
-### Agile Testing 🧪 🤸‍♂️
+### Agile Testing
 
 #### **Defect Priority and Severity**
 
@@ -204,7 +204,7 @@ So that I can see my my noggin profile
 
 <br>
 
-### Test Automation 🧪 🤖
+### Test Automation
 
 #### **Test Automation Challenge:** 
 Automate the following scenario using Selenium Java or JavaScript
@@ -241,9 +241,11 @@ npm run cy:run:mobile         // run mobile tagged tests in HEADLESS mode
 npm run generate:html:report  // run after cypress tests (except for cy:open) for html report to be generated
 ```
 
+[Back to contens](#contents)
+
 <br>
 
-### Performance Testing 🚀 🧪
+### Performance Testing
 
 #### **Performance Testing Challenge:** 
 Write a JMeter script for the below scenario and share the `.jmx` file 
@@ -288,6 +290,8 @@ jmeter -n -t perf/jmeter/Noggin-Users-Performance-Test.jmx -l perf/jmeter/Noggin
 * After running the K6 script, an HTML report will be generated in the `perf/k6` directory in a file called `noggin-k6-performance-summary.html`. Open it up and take a look 👀
 * After running the JMeter script, the results will be generated in the `perf/jmeter` directory in a file called `Noggin-Users-Performance-Results`
 
+[Back to contens](#contents)
+
 ### **TODO**
 The following is a list of things I didn't get round to completeing in this Tech Challenge, but which I intend on delving into/setting up.
 * **Performance Testing:** I would like to spend some more time playing with the following tools. I have seen great reviews and I feel like that could be extemely powerful and useful. I wonder if Noggin have considered some of the following tools as an alternative to JMeter?
@@ -296,3 +300,5 @@ The following is a list of things I didn't get round to completeing in this Tech
   * **Taurus:** (**T**est **A**utomation **R**unning **S**moothly) is an open source automation tool created by Blazemeter which provides an abstraction layer over existing Peformance Testing tools such as JMeter, Grinder, Gatling.
   * Install **cypress-audit** setup in the project for a11y and Lighthouse performance testing
 * **Visual Regression Testing**: Install **cypress-image-screenshot** for regression testing
+
+[Back to contens](#contents)
