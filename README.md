@@ -25,7 +25,7 @@
   * [Running Performance Tests](#running-performance-tests)
 * [TODO](#todo)
 
-### Agile Testing
+### Agile Testing 🧪 🤸‍♂️
 
 #### **Defect Priority and Severity**
 
@@ -204,7 +204,7 @@ So that I can see my my noggin profile
 
 <br>
 
-### Test Automation
+### Test Automation 🧪 🤖
 
 #### **Test Automation Challenge:** 
 Automate the following scenario using Selenium Java or JavaScript
@@ -240,7 +240,7 @@ npm run generate:html:report  // run after cypress tests (except for cy:open) fo
 
 <br>
 
-### Performance Testing
+### Performance Testing 🚀 🧪
 
 #### **Performance Testing Challenge:** 
 Write a JMeter script for the below scenario and share the `.jmx` file 
