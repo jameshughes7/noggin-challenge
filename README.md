@@ -1,7 +1,7 @@
 # Noggin Tech Challenge
 
 ## Contents
-* [Agile Testing](#agile-testing) 🧪 🤸‍♂️
+[Agile Testing](#agile-testing) 🧪 🤸‍♂️
   1. [Defect priority and severity](#1-defect-priority-and-severity)
   2. [Defect examples](#2-defect-examples)
   3. [Testing new Release](#3-testing-new-release)
@@ -11,25 +11,28 @@
   7. [Scrum and Kanban](#7-scrum-and-kanban)
   8. [Imperative and Declarative tests](#8-imperative-and-declarative-tests)
   9. [Key Performance Metrics](#9-key-performance-metrics)
-* [Test Automation](#test-automation) 🧪 🤖
+
+[Test Automation](#test-automation) 🧪 🤖
   * [Test Automation Challenge](#test-automation-challenge)
   * [Test Automation Requirement](#test-automation-requirement)
   * [Test Automation Steps](#test-automation-steps)
   * [Test Automation Solution](#test-automation-solution)
   * [Running Cypress Tests](#running-cypress-tests)
-* [Performance Testing](#performance-testing) 🚀 🧪
+
+[Performance Testing](#performance-testing) 🚀 🧪
   * [Performance Testing Challenge](#performance-testing-challenge)
   * [Performance Testing Steps](#performance-testing-steps)
   * [Performance Testing Conditions](#performance-testing-conditions)
   * [Performance Testing Solution](#performance-testing-solution)
   * [Running Performance Tests](#running-performance-tests)
-* [TODO](#todo)
+
+[TODO](#todo)
 
 ### Agile Testing
 <br>
 
 
-#### **1-Defect Priority and Severity**
+#### **1. Defect Priority and Severity**
 
 **Question**: What is the difference between defect **priority** and **severity**?
 
@@ -152,7 +155,7 @@ Team members focus on speed and effieciency and can wear many hats in their goal
 * **Scrum** relies on finite sprint cycles (1 or 2 week cycles) where team members commit to an amount of work to be achieved within that sprint. 
 Team member roles are more defined and more agile ceremonies used to	maintain structure and plan.
 
-#### **8.Imperative and Declarative tests**
+#### **8. Imperative and Declarative tests**
 **Questions**: Give an example of an Imperative & Declarative test scenario in BDD format (Cucumber - Gherkin).
 	    
 **Imperative**
