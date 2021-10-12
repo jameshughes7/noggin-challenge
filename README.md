@@ -2,15 +2,15 @@
 
 ## Contents
 * [Agile Testing](#agile-testing) 🧪 🤸‍♂️
-  * [Defect priority and severity](#defect-priority-and-severity)
-  * [Defect examples](#defect-examples)
-  * [Testing new Release](#testing-new-release)
-  * [Risk analysis during software testing](#risk-analysis-during-software-testing)
-  * [Agile testing Methodologies](#agile-testing-methodologies)
-  * [Qualities of good Agile Tester](#qualities-of-good-agile-tester)
-  * [Scrum and Kanban](#scrum-and-kanban)
-  * [Imperative and Declarative tests](#imperative-and-declarative-tests)
-  * [Key Performance Metrics](#key-performance-metrics)
+  1. [Defect priority and severity](#1-defect-priority-and-severity)
+  2. [Defect examples](#2-defect-examples)
+  3. [Testing new Release](#3-testing-new-release)
+  4. [Risk analysis during software testing](#4-risk-analysis-during-software-testing)
+  5. [Agile testing Methodologies](#5-agile-testing-methodologies)
+  6. [Qualities of good Agile Tester](#6-qualities-of-good-agile-tester)
+  7. [Scrum and Kanban](#7-scrum-and-kanban)
+  8. [Imperative and Declarative tests](#8-imperative-and-declarative-tests)
+  9. [Key Performance Metrics](#9-key-performance-metrics)
 * [Test Automation](#test-automation) 🧪 🤖
   * [Test Automation Challenge](#test-automation-challenge)
   * [Test Automation Requirement](#test-automation-requirement)
@@ -26,8 +26,10 @@
 * [TODO](#todo)
 
 ### Agile Testing
+<br>
 
-#### **Defect Priority and Severity**
+
+#### **1-Defect Priority and Severity**
 
 **Question**: What is the difference between defect **priority** and **severity**?
 
@@ -41,7 +43,7 @@
 * **Low severity**: defect is not causing major disruption to core/key user journeys. User still able to use the application (low business impact).
 * **High severity**: defect is causing major disruption to core/key user journeys and is potentially preventing user from using the application (high business impact).
 
-#### **Defect examples**
+#### **2. Defect examples**
 
 **Question**: Assuming that you are testing <a href="https://noggin.io/" target="_blank">Noggin Home Page</a>, provide examples for: 
 * A high priority and high severity defect
@@ -79,7 +81,7 @@
     * Typos on the page such as the 2nd `.three-col-container .hs_cos_wrapper p` element (Work Safety) has **induries** but it should be **injuries**
     * Padding issues, minor misalignment of elements, things that affect **a11y** of page
 
-#### **Testing new Release**
+#### **3. Testing new Release**
 
 **Question:** When testing a new release, if you have completed majority of testing for the release and you are on a tight deadline. What are the key factors you would consider if you are to stop further testing of the release?
 
@@ -93,7 +95,7 @@
   * What is the risk of leaving the remainder testing for later? Could it have small or large implications?
   * Are minor issues that will arise because testing stops acceptable or not? Ensure that these minor issues are tracked down to be fixed at a later date.
 
-#### **Risk analysis during software testing**
+#### **4. Risk analysis during software testing**
 **Question**: What parameters should you consider if you are to perform a risk analysis during software testing and how you prioritise each of them?
 
 **Answer**: I would consider the following:
@@ -105,7 +107,7 @@
 * **In scope**: Is the outstanding work within the scope of our current focus (are we staying on track and keeping the main thing the main thing).
 * **Security**: Have security implications been considered with what is being built? How will it affect the security of the site/application?
 
-#### **Agile testing Methodologies**
+#### **5. Agile testing Methodologies**
 **Question**: Name few Agile testing Methodologies and how you have adopted the right testing approach for your previous engagements?
 
 **Answer**:
@@ -119,7 +121,7 @@
 
   **<a href="https://martinfowler.com/articles/practical-test-pyramid.html" target="_blank">The Testing Pyramid</a> should always be considered when thinking through the above methodologies ☝️**
 
-#### **Qualities of good Agile Tester?**
+#### **6. Qualities of good Agile Tester?**
 **Question**: What qualities should a good Agile Tester have?
 
 **Answer**: A tester in an Agile team should have the following competencies:
@@ -139,7 +141,7 @@
 * Respond to change quickly, including changing, adding, or improving test cases
 * Plan and organise their own work
 
-#### **Scrum and Kanban**
+#### **7. Scrum and Kanban**
 **Question:** What's the difference between Scrum and Kanban?
 
 **Answer:** Both are agile (iterative and collaborative) strategies for how a team organises itself to manage its workflow. Basically, Kanban is more fluid and Scrum is more structured.
@@ -150,7 +152,7 @@ Team members focus on speed and effieciency and can wear many hats in their goal
 * **Scrum** relies on finite sprint cycles (1 or 2 week cycles) where team members commit to an amount of work to be achieved within that sprint. 
 Team member roles are more defined and more agile ceremonies used to	maintain structure and plan.
 
-#### **Imperative and Declarative tests**
+#### **8.Imperative and Declarative tests**
 **Questions**: Give an example of an Imperative & Declarative test scenario in BDD format (Cucumber - Gherkin).
 	    
 **Imperative**
@@ -184,7 +186,7 @@ So that I can see my my noggin profile
 	THEN I should see my account page
 ```
 
-#### **Key Performance Metrics**
+#### **9. Key Performance Metrics**
 
 **Question:** What are all the key performance metrics which needs to be captured during Performance testing of a Web Application?
 
@@ -204,9 +206,11 @@ So that I can see my my noggin profile
 
 [Back to contents](#contents)
 
-<br>
+---
 
 ### Test Automation
+
+<br>
 
 #### **Test Automation Challenge:** 
 Automate the following scenario using Selenium Java or JavaScript
@@ -245,9 +249,11 @@ npm run generate:html:report  // run after cypress tests (except for cy:open) fo
 
 [Back to contents](#contents)
 
-<br>
+---
 
 ### Performance Testing
+
+<br>
 
 #### **Performance Testing Challenge:** 
 Write a JMeter script for the below scenario and share the `.jmx` file 
@@ -294,7 +300,12 @@ jmeter -n -t perf/jmeter/Noggin-Users-Performance-Test.jmx -l perf/jmeter/Noggin
 
 [Back to contents](#contents)
 
+---
+
 ### **TODO**
+
+<br>
+
 The following is a list of things I didn't get round to completeing in this Tech Challenge, but which I intend on delving into/setting up.
 * **Performance Testing:** I would like to spend some more time playing with the following tools. I have seen great reviews and I feel like that could be extemely powerful and useful. I wonder if Noggin have considered some of the following tools as an alternative to JMeter?
   * **K6:** I have really enjoyed using this tool and I will work on improve and build up my skills with K6. I found this to be a very user friendly tool and one that works very well with a node applications.
