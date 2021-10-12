@@ -252,7 +252,7 @@ npm run generate:html:report  // run after cypress tests (except for cy:open) fo
 
 **Notes**
 
-* After running the one of the Cypress `run` scripts, the results will be generated in the `TestReport` directory in a file called `cypress-tests-report.html`
+* After running one of the Cypress `run` scripts, the results will be generated in the `TestReport` directory in a file called `cypress-tests-report.html`
 
 [Back to contents](#contents)
 
