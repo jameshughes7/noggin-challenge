@@ -250,6 +250,10 @@ npm run cy:run:mobile         // run mobile tagged tests in HEADLESS mode
 npm run generate:html:report  // run after cypress tests (except for cy:open) for html report to be generated
 ```
 
+**Notes**
+
+* After running the one of the Cypress `run` scripts, the results will be generated in the `TestReport` directory in a file called `cypress-tests-report.html`
+
 [Back to contents](#contents)
 
 ---
