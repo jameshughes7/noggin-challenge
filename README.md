@@ -240,19 +240,20 @@ I went with <a href="https://www.cypress.io/" target="_blank">Cypress</a> as my 
 * `npm install`
 
 ```
-npm run cy:run:resources      // run all resources tests
-npm run cy:open               // run cypress tests in UI mode
-npm run cy:run                // run all cypress tests in HEADLESS mode
-npm run cy:run:desktop        // run desktop tagged tests in HEADLESS mode
-npm run cy:run:desktopXL      // run desktopXL tagged tests in HEADLESS mode
-npm run cy:run:tablet         // run tablet tagged tests in HEADLESS mode
-npm run cy:run:mobile         // run mobile tagged tests in HEADLESS mode
-npm run generate:html:report  // run after cypress tests (except for cy:open) for html report to be generated
+npm run cy:open           // run cypress tests in UI mode
+npm run cy:run:resources  // run all resource tests in headless mode
+npm run cy:run:desktop    // run all desktop tests in headless mode
+npm run cy:run:desktopXL  // run all desktopXL tests in headless mode
+npm run cy:run:tablet     // run all tablet tests in headless mode
+npm run cy:run:mobile     // run all mobile tests in headless mode
 ```
 
 **Notes**
 
+* Running `npm run cy:open` will run Cypress tests in UI mode.
+* Running any of the `npm run cy: run` commands will run the Cypress tests in headless mode.
 * After running one of the Cypress `run` scripts, the results will be generated in the `TestReport` directory in a file called `cypress-tests-report.html`
+
 
 [Back to contents](#contents)
 
