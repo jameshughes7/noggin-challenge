@@ -299,8 +299,8 @@ I created a JMeter script as per the requirements. Prior to this, I had only ver
 
 
 ```
-npm run k6:run                // run K6 performance tests in HEADLESS mode
-jmeter -n -t perf/jmeter/Noggin-Users-Performance-Test.jmx -l perf/jmeter/Noggin-Users-Performance-Results
+npm run k6:run
+npm run jmeter:run
 ```
 **Notes:** 
 * After running the K6 script, an HTML report will be generated in the `perf/k6` directory in a file called `noggin-k6-performance-summary.html`. Open it up and take a look 👀
